@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body , h2 , button{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: #f6f6f6;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+.person-pox{
+    width: 45%;
+    background-color: #fff;
+    border: 1px solid #000;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    /* height: 300px; */
+}
+.person h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.progress{
+   /* width: 100%; */
+  position: relative;
+   background-color: #888;
+   height: 30px;
+   text-align: center;
+   
+}
+ .progress span{
+   display: block;
+   width: 100%;
+   background-color: green;
+   height: 100%;
+   text-align: center;
+   
+   padding: 5px 0 0 0;
+}
+.progress p{
+    margin-top: -25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.person img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 10px auto;
+}
+.person button{
+    width: 120px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    font-size: 18px;
+    margin: 20px 0;
+}
+.status{
+    font-size: 20px;
+    font-weight: 800;
+    border: 1px solid #888;
+    border-radius: 5px;
+    margin:10px;
+    padding: 10px 0;
+    color: green;
+    display: none;
+}
